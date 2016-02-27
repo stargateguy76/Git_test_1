@@ -190,7 +190,7 @@ public class NxtTeleOp extends OpMode {
       throttle2 = -gamepad1.right_stick_y;
 
       if (gamepad1.b){
-        sweeperMotor.setPower(-1);
+        sweeperMotor.setPower(1);
 
 
       }
